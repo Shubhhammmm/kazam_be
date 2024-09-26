@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://kazam-fe-rosy.vercel.app/",
     methods: ["GET", "POST"],
     credentials: true,
   })
